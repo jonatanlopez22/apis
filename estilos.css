@@ -1,0 +1,62 @@
+.p{
+   
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center;
+    color:#ffffff
+
+}
+
+.p1{
+   
+    text-align: center;
+    color: white;
+
+}
+
+
+.boxTitulo{
+    
+    padding: 50px;
+  
+}
+
+.box1{
+    margin: 0;
+    padding: 50px;
+    color: #fff;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+main{
+    background-color: #2b2d2e;
+    padding: 60px;
+    padding-bottom: 150px;
+    
+    
+
+}
+
+footer{
+    padding: 20px;
+    background-color: #18191a;
+        color: white;
+}
+
+.banner2{
+    position: relative;
+    width: 100%;
+    height: calc(50vh - 50px);
+    background-size: center ;
+    background-position: center ;
+    transition: all .1s ease-in-out;
+    background-image: url(img/baner.gif);
+    animation: banner 24s infinite linear;
+
+}
